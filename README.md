@@ -41,15 +41,15 @@
 
 | Skill | Where you can see it |
 |---|---|
-| **Software engineering fundamentals** | [Skimora](#building-now-skimora): replaced a bolding algorithm duplicated across 5 modules with one shared tokenizer, and added an event bus that isolates each feature's domain. [students-go](https://github.com/Shreya20002/students-go): a layered Go REST API (config → handlers → storage interface). [connect #947](https://github.com/commaai/connect/pull/947): replaced six scattered URL getters with one parser/builder pair, tested as round trips |
+| **Software engineering fundamentals** | [Skimora](#building-now-skimora): replaced a bolding algorithm duplicated across 5 modules with one shared tokenizer, and added an event bus that isolates each feature's domain. [students-go](https://github.com/dotslashshreya/students-go): a layered Go REST API (config → handlers → storage interface). [connect #947](https://github.com/commaai/connect/pull/947): replaced six scattered URL getters with one parser/builder pair, tested as round trips |
 | **Modern languages** | Python · TypeScript / JavaScript · Go · Solidity · SQL |
-| **Data structures & problem solving** | [LeetCode](https://leetcode.com/u/Shhh123/): 654 problems solved (174 Easy, 371 Medium, 109 Hard), contest rating 1,702, top 14%. [Skimora](#building-now-skimora): a two-tier LRU / IndexedDB cache behind virtualized PDF and EPUB rendering, plus 90-day rolling reading-speed analytics. [csv-json-api](https://github.com/Shreya20002/csv-json-api): a hand-written CSV parser (quoted fields, nested `a.b.c` keys) that loads 50k+ rows in chunks. [connect #947](https://github.com/commaai/connect/pull/947): split into 7 commits that each build, pass and do one thing |
-| **APIs & databases** | Supabase Edge Functions (Deno) + an RLS-secured Postgres schema with per-IP rate limiting ([Skimora](#building-now-skimora)) · FastAPI + PostgreSQL + Alembic migrations ([inventory dashboard](https://github.com/Shreya20002/ai_inventory_predictor)) · Go + SQLite ([students-go](https://github.com/Shreya20002/students-go)) · Express + MongoDB + Redis rate limiting ([mindboard](https://github.com/Shreya20002/mindboard)) · Node + PostgreSQL transactions ([csv-json-api](https://github.com/Shreya20002/csv-json-api)) |
-| **Automated testing** | Foundry unit, integration and fuzz tests ([AegisHook](https://github.com/Shreya20002/ageishook), [15DaysOfFoundry](https://github.com/Shreya20002/15DaysOfFoundry)) · a failing test written for each of 5 bugs, growing the suite from 96 to 102 tests ([connect #947](https://github.com/commaai/connect/pull/947)) |
+| **Data structures & problem solving** | [LeetCode](https://leetcode.com/u/Shhh123/): 654 problems solved (174 Easy, 371 Medium, 109 Hard), contest rating 1,702, top 14%. [Skimora](#building-now-skimora): a two-tier LRU / IndexedDB cache behind virtualized PDF and EPUB rendering, plus 90-day rolling reading-speed analytics. [csv-json-api](https://github.com/dotslashshreya/csv-json-api): a hand-written CSV parser (quoted fields, nested `a.b.c` keys) that loads 50k+ rows in chunks. [connect #947](https://github.com/commaai/connect/pull/947): split into 7 commits that each build, pass and do one thing |
+| **APIs & databases** | Supabase Edge Functions (Deno) + an RLS-secured Postgres schema with per-IP rate limiting ([Skimora](#building-now-skimora)) · FastAPI + PostgreSQL + Alembic migrations ([inventory dashboard](https://github.com/dotslashshreya/ai_inventory_predictor)) · Go + SQLite ([students-go](https://github.com/dotslashshreya/students-go)) · Express + MongoDB + Redis rate limiting ([mindboard](https://github.com/dotslashshreya/mindboard)) · Node + PostgreSQL transactions ([csv-json-api](https://github.com/dotslashshreya/csv-json-api)) |
+| **Automated testing** | Foundry unit, integration and fuzz tests ([AegisHook](https://github.com/dotslashshreya/ageishook), [15DaysOfFoundry](https://github.com/dotslashshreya/15DaysOfFoundry)) · a failing test written for each of 5 bugs, growing the suite from 96 to 102 tests ([connect #947](https://github.com/commaai/connect/pull/947)) |
 | **Cloud & deployment** | Supabase (Edge Functions, Postgres), Vercel (including edge functions), Render |
-| **AI / LLM applications** | An AI summarizer in progress for [Skimora](#building-now-skimora) · multi-agent pipelines ([vibenews](https://github.com/Shreya20002/vibenews), [AI Meme Generator](https://github.com/Shreya20002/AI_Agent_Meme_Generator)) · Claude and OpenAI APIs · streamed, structured JSON output |
+| **AI / LLM applications** | An AI summarizer in progress for [Skimora](#building-now-skimora) · multi-agent pipelines ([vibenews](https://github.com/dotslashshreya/vibenews), [AI Meme Generator](https://github.com/dotslashshreya/AI_Agent_Meme_Generator)) · Claude and OpenAI APIs · streamed, structured JSON output |
 | **Ownership & working independently** | Took [Skimora](#building-now-skimora) from idea to launch on my own (architecture, UI/UX, backend, payments and licensing) and won its first 2 paying customers in launch week |
-| **Git & written communication** | Daily Git/GitHub use across 40+ repos · detailed PR write-ups and READMEs ([connect #947](https://github.com/commaai/connect/pull/947), [Screen Time Tracker](https://github.com/Shreya20002/productivity_tracker)) |
+| **Git & written communication** | Daily Git/GitHub use across 40+ repos · detailed PR write-ups and READMEs ([connect #947](https://github.com/commaai/connect/pull/947), [Screen Time Tracker](https://github.com/dotslashshreya/productivity_tracker)) |
 
 ## Building now: Skimora
 
@@ -98,38 +98,38 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/ai_inventory_predictor">AI Inventory &amp; Demand Dashboard</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/ai_inventory_predictor">AI Inventory &amp; Demand Dashboard</a></h3>
       <p>Finds dead stock in real retail data (UCI Online Retail) and estimates the revenue at risk. A scikit-learn Random Forest scores every item and stores its predictions in PostgreSQL. A FastAPI endpoint serves them to a Next.js dashboard.</p>
       <p><code>Next.js</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>SQLAlchemy</code> <code>Alembic</code> <code>scikit-learn</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/productivity_tracker">Screen Time Tracker</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/productivity_tracker">Screen Time Tracker</a></h3>
       <p>A private, offline terminal app that records which app you're using and for how long, with daily, weekly and all-time reports. It uses only Python's standard library, so there are no dependencies, and it runs on Windows, macOS and Linux.</p>
       <p><code>Python</code> <code>Cross-platform</code> <code>CLI</code> <code>Privacy-first</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/ageishook">AegisHook</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/ageishook">AegisHook</a></h3>
       <p>A security-as-a-service hook for Uniswap v4, built for the Uniswap Hook Incubator. It raises an on-chain alert when it sees a suspicious swap, and a Reactive contract then pauses the affected pool automatically. The repo includes a Foundry test suite and a Next.js dashboard.</p>
       <p><code>Solidity</code> <code>Foundry</code> <code>Next.js</code> <code>Ethers.js</code></p>
       <p><a href="https://ageishook.vercel.app">Live demo</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/AI_Agent_Meme_Generator">AI Agent Meme Generator</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/AI_Agent_Meme_Generator">AI Agent Meme Generator</a></h3>
       <p>An agent that turns a text prompt into a meme. It picks a fitting template, writes the captions and drives imgflip.com through browser automation. It then checks the result and retries if generation fails. You can switch between Claude, GPT-4o and DeepSeek.</p>
       <p><code>Python</code> <code>Streamlit</code> <code>LLM agents</code> <code>Browser automation</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/mindAI">MindAI</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/mindAI">MindAI</a></h3>
       <p>A mood journal for students preparing for exams. You log how you feel each day, follow your mood on a chart, and get a reflection from Claude. The Claude call runs in a serverless edge function, so the API key never reaches the browser.</p>
       <p><code>React</code> <code>Vite</code> <code>Tailwind</code> <code>Recharts</code> <code>Claude API</code> <code>Vercel Edge</code></p>
       <p><a href="https://mind-ai-ttyx.vercel.app">Live demo</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Shreya20002/vibenews">VibeNews</a></h3>
+      <h3><a href="https://github.com/dotslashshreya/vibenews">VibeNews</a></h3>
       <p>A two-agent pipeline. A researcher agent pulls the five latest headlines with Perplexity and Firecrawl. A writer agent then fuses them into one rapid-fire, Eminem-style verse.</p>
       <p><code>Python</code> <code>AgentStack</code> <code>GPT-4o</code> <code>Perplexity</code> <code>Firecrawl</code></p>
     </td>
@@ -141,23 +141,23 @@
 <br>
 
 **Backend & APIs**
-- [students-go](https://github.com/Shreya20002/students-go): a student-records REST API in Go, with environment-based config, request validation and SQLite storage behind an interface.
-- [csv-json-api](https://github.com/Shreya20002/csv-json-api): a Node.js API that parses CSV into nested JSON and bulk-loads it into PostgreSQL. It uses chunked, transactional inserts and reports the age distribution.
-- [mindboard](https://github.com/Shreya20002/mindboard): a MERN notes app with a REST API and Upstash Redis rate limiting, deployed on Render.
-- [go_basics](https://github.com/Shreya20002/go_basics): Go fundamentals, with common beginner pitfalls explained in comments.
+- [students-go](https://github.com/dotslashshreya/students-go): a student-records REST API in Go, with environment-based config, request validation and SQLite storage behind an interface.
+- [csv-json-api](https://github.com/dotslashshreya/csv-json-api): a Node.js API that parses CSV into nested JSON and bulk-loads it into PostgreSQL. It uses chunked, transactional inserts and reports the age distribution.
+- [mindboard](https://github.com/dotslashshreya/mindboard): a MERN notes app with a REST API and Upstash Redis rate limiting, deployed on Render.
+- [go_basics](https://github.com/dotslashshreya/go_basics): Go fundamentals, with common beginner pitfalls explained in comments.
 
 **Smart contracts & Web3**
-- [uhi7-hook](https://github.com/Shreya20002/uhi7-hook): an encrypted Dutch-auction hook for Uniswap v4 that uses fully homomorphic encryption.
-- [15DaysOfFoundry](https://github.com/Shreya20002/15DaysOfFoundry): Foundry contracts (bank, token swap, batch transfer and more), with fuzz tests.
-- [greetings_dapp_on_base](https://github.com/Shreya20002/greetings_dapp_on_base): a Greeter contract and frontend on the Base Sepolia testnet.
-- [VaultSystem](https://github.com/Shreya20002/VaultSystem) · [Smart_Contract_Audit](https://github.com/Shreya20002/Smart_Contract_Audit): assignments from the Lisk Summer Bootcamp.
+- [uhi7-hook](https://github.com/dotslashshreya/uhi7-hook): an encrypted Dutch-auction hook for Uniswap v4 that uses fully homomorphic encryption.
+- [15DaysOfFoundry](https://github.com/dotslashshreya/15DaysOfFoundry): Foundry contracts (bank, token swap, batch transfer and more), with fuzz tests.
+- [greetings_dapp_on_base](https://github.com/dotslashshreya/greetings_dapp_on_base): a Greeter contract and frontend on the Base Sepolia testnet.
+- [VaultSystem](https://github.com/dotslashshreya/VaultSystem) · [Smart_Contract_Audit](https://github.com/dotslashshreya/Smart_Contract_Audit): assignments from the Lisk Summer Bootcamp.
 
 **Data science & ML**
-- [Movie-recommender](https://github.com/Shreya20002/Movie-recommender): a content-based recommender that uses cosine similarity.
-- [Flight-Prices-Predictor](https://github.com/Shreya20002/Flight-Prices-Predictor) · [Crop-Recommendation-System](https://github.com/Shreya20002/Crop-Recommendation-System): ML models on tabular data.
+- [Movie-recommender](https://github.com/dotslashshreya/Movie-recommender): a content-based recommender that uses cosine similarity.
+- [Flight-Prices-Predictor](https://github.com/dotslashshreya/Flight-Prices-Predictor) · [Crop-Recommendation-System](https://github.com/dotslashshreya/Crop-Recommendation-System): ML models on tabular data.
 
 **Just for fun**
-- [faah_leetcode_fails](https://github.com/Shreya20002/faah_leetcode_fails): a Chrome extension (Manifest V3) that plays the viral "faah" sound when a LeetCode submission fails.
+- [faah_leetcode_fails](https://github.com/dotslashshreya/faah_leetcode_fails): a Chrome extension (Manifest V3) that plays the viral "faah" sound when a LeetCode submission fails.
 
 </details>
 
@@ -210,19 +210,19 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Shreya20002&show_icons=true&hide_rank=true&hide=stars,issues&custom_title=GitHub%20Stats&hide_border=true&title_color=A5B4FC&icon_color=38BDF8&text_color=CBD5E1&bg_color=0D1117">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=Shreya20002&show_icons=true&hide_rank=true&hide=stars,issues&custom_title=GitHub%20Stats&hide_border=true&title_color=4F46E5&icon_color=0EA5E9&text_color=334155&bg_color=FFFFFF" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=dotslashshreya&show_icons=true&hide_rank=true&hide=stars,issues&custom_title=GitHub%20Stats&hide_border=true&title_color=A5B4FC&icon_color=38BDF8&text_color=CBD5E1&bg_color=0D1117">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=dotslashshreya&show_icons=true&hide_rank=true&hide=stars,issues&custom_title=GitHub%20Stats&hide_border=true&title_color=4F46E5&icon_color=0EA5E9&text_color=334155&bg_color=FFFFFF" alt="GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreya20002&layout=compact&langs_count=6&exclude_repo=ageishook,GeologicalAnalysis,base-to-lisk&hide=jupyter%20notebook,tex,julia,html,css,mako&size_weight=0.5&count_weight=0.5&hide_border=true&title_color=A5B4FC&text_color=CBD5E1&bg_color=0D1117">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreya20002&layout=compact&langs_count=6&exclude_repo=ageishook,GeologicalAnalysis,base-to-lisk&hide=jupyter%20notebook,tex,julia,html,css,mako&size_weight=0.5&count_weight=0.5&hide_border=true&title_color=4F46E5&text_color=334155&bg_color=FFFFFF" alt="Most used languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=dotslashshreya&layout=compact&langs_count=6&exclude_repo=ageishook,GeologicalAnalysis,base-to-lisk&hide=jupyter%20notebook,tex,julia,html,css,mako&size_weight=0.5&count_weight=0.5&hide_border=true&title_color=A5B4FC&text_color=CBD5E1&bg_color=0D1117">
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dotslashshreya&layout=compact&langs_count=6&exclude_repo=ageishook,GeologicalAnalysis,base-to-lisk&hide=jupyter%20notebook,tex,julia,html,css,mako&size_weight=0.5&count_weight=0.5&hide_border=true&title_color=4F46E5&text_color=334155&bg_color=FFFFFF" alt="Most used languages">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Shreya20002&hide_border=true&background=0D1117&ring=A5B4FC&fire=38BDF8&currStreakNum=A5B4FC&sideNums=CBD5E1&currStreakLabel=A5B4FC&sideLabels=CBD5E1&dates=94A3B8">
-    <img src="https://streak-stats.demolab.com?user=Shreya20002&hide_border=true&background=FFFFFF&ring=4F46E5&fire=0EA5E9&currStreakNum=4F46E5&sideNums=334155&currStreakLabel=4F46E5&sideLabels=334155&dates=64748B" alt="GitHub contribution streak">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dotslashshreya&hide_border=true&background=0D1117&ring=A5B4FC&fire=38BDF8&currStreakNum=A5B4FC&sideNums=CBD5E1&currStreakLabel=A5B4FC&sideLabels=CBD5E1&dates=94A3B8">
+    <img src="https://streak-stats.demolab.com?user=dotslashshreya&hide_border=true&background=FFFFFF&ring=4F46E5&fire=0EA5E9&currStreakNum=4F46E5&sideNums=334155&currStreakLabel=4F46E5&sideLabels=334155&dates=64748B" alt="GitHub contribution streak">
   </picture>
 </p>
 
