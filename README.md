@@ -12,4 +12,4 @@ Looking for backend, SRE and AI infrastructure roles at fast-moving product team
 - **[AegisHook](https://github.com/dotslashshreya/ageishook):** Uniswap v4 security hook that detects anomalous swaps and froze a live Sepolia pool in a verifiable transaction.
 - **[Screen Time Tracker](https://github.com/dotslashshreya/productivity_tracker):** cross-platform tracker with crash-safe storage (write to temp, then atomic swap) and zero dependencies.
 
-[LinkedIn](https://www.linkedin.com/in/shreya-kapoor-3a6532215) · [LeetCode](https://leetcode.com/u/Shhh123/) (contest rating 1,702, top 14%) · shreyakapoor2890@gmail.com
+Reach out to me at shreyakapoor2890@gmail.com.
