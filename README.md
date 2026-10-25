@@ -2,7 +2,7 @@
 
 Backend and infrastructure engineer. I build reliable systems and AI agent tooling, and I ship them end to end.
 
-Looking for backend, SRE and AI infrastructure roles at fast-moving product teams. Based in Mumbai, open to remote.
+Looking for backend, SRE and AI infrastructure roles at fast-moving product teams. Open to remote roles.
 
 **Recent work**
 
